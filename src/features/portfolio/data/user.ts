@@ -4,29 +4,29 @@ export const USER: User = {
   firstName: "Melaku",
   lastName: "Girma",
   displayName: "Melaku",
-  username: "ncdai",
+  username: "melaku",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Software Engineer",
+    "Senior Frontend Developer",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Addis Ababa, Ethiopia",
+  phoneNumber: "251703839688", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "bWVsYWt1Z2lybWExM0BnbWFpbC5jb20=", // base64 encoded
+  website: "https://myweb-one-xi.vercel.app/",
+  jobTitle: "Software Engineer",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
+      company: "",
       website: "https://simplamo.com?ref=IN-926722",
     },
     {
       title: "Founder",
-      company: "Quaric",
+      company: "",
       website: "https://quaric.com",
     },
   ],
@@ -42,19 +42,20 @@ export const USER: User = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Design Engineer** with **5+ years of experience**, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - **80k+ downloads** on [SourceForge](https://sourceforge.net/projects/zadark)
-  - **20k+ active users** on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - **4k+ weekly downloads** on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **Full Stack Software Engineer** with **5+ years of experience**, known for building scalable web applications, microservices, and enterprise systems with strong attention to detail.
+- Skilled in **Next.js**, **React**, **TypeScript**, **NestJS**, and modern development workflows; delivering high-quality, user-centric solutions in fully remote environments.
+- Passionate about leveraging **AI tools** for faster implementation, efficient debugging, and optimized workflows—turning ideas into polished, production-ready applications.
+- Creator of [BlueDot Store](https://bluedot-store.vercel.app/) (2024): full-stack e-commerce platform
+  - Built with **Next.js**, **PostgreSQL**, **Prisma ORM**, **Clerk** authentication, and **Stripe** payment processing
+  - Deployed on **Vercel** with **Supabase** for data storage
+- Creator of **Auction App**: microservices-based platform
+  - Built with **.NET Core WebApi**, **Next.js**, **RabbitMQ**, **Docker**, and **Kubernetes**
+  - Implemented **CI/CD pipeline** and local deployment orchestration
+- Contributed to Ethiopian Investment Commission's online systems ([invest-ethiopia.com](https://invest-ethiopia.com)) and **Online Trade Registration and Licensing System** ([etrade.gov.et](https://etrade.gov.et))
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+  avatar: "https://iajnbsldqibrouupyqul.supabase.co/storage/v1/object/public/profile_bucket/my_avator.png",
   ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1763205174",
+    "https://iajnbsldqibrouupyqul.supabase.co/storage/v1/object/public/profile_bucket/my_avator.png",
   namePronunciationUrl: "/audio/melaku.mp3",
   timeZone: "Asia/Ho_Chi_Minh",
   keywords: [
@@ -69,5 +70,5 @@ export const USER: User = {
     "nguyễn chánh đại",
     "chánh đại",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2026-2-13", // YYYY-MM-DD
 };

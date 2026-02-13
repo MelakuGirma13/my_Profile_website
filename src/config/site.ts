@@ -19,17 +19,17 @@ export const MAIN_NAV: NavItem[] = [
     title: "Portfolio",
     href: "/",
   },
-  {
-    title: "Components",
-    href: "/components",
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  // },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  // },
 ];
 
-export const GITHUB_USERNAME = "ncdai";
+export const GITHUB_USERNAME = "melakugirma13";
 export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
 
