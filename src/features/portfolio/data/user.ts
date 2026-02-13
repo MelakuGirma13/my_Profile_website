@@ -11,24 +11,24 @@ export const USER: User = {
   flipSentences: [
     "Creating with code. Small details matter.",
     "Software Engineer",
-    "Senior Frontend Developer",
+    "Fullstack Developer",
   ],
   address: "Addis Ababa, Ethiopia",
-  phoneNumber: "251703839688", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  phoneNumber: "MjUxNzAzODM5Njg4", // E.164 format, base64 encoded (https://it-tools.tech/base64-string-converter)
   email: "bWVsYWt1Z2lybWExM0BnbWFpbC5jb20=", // base64 encoded
   website: "https://myweb-one-xi.vercel.app/",
-  jobTitle: "Software Engineer",
+  jobTitle: "Fullstack Developer",
   jobs: [
-    {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "",
-      website: "https://quaric.com",
-    },
+    // {
+    //   title: "Fullstack Developer",
+    //   company: "",
+    //   website: "https://simplamo.com?ref=IN-926722",
+    // },
+    // {
+    //   title: "Founder",
+    //   company: "bluedot",
+    //   website: "https://quaric.com",
+    // },
   ],
   //   about: `
   // Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
@@ -42,22 +42,16 @@ export const USER: User = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Full Stack Software Engineer** with **5+ years of experience**, known for building scalable web applications, microservices, and enterprise systems with strong attention to detail.
+- **Full Stack Software Developer** with **5+ years of experience**, known for building scalable web applications, microservices, and enterprise systems with strong attention to detail.
 - Skilled in **Next.js**, **React**, **TypeScript**, **NestJS**, and modern development workflows; delivering high-quality, user-centric solutions in fully remote environments.
 - Passionate about leveraging **AI tools** for faster implementation, efficient debugging, and optimized workflows—turning ideas into polished, production-ready applications.
-- Creator of [BlueDot Store](https://bluedot-store.vercel.app/) (2024): full-stack e-commerce platform
-  - Built with **Next.js**, **PostgreSQL**, **Prisma ORM**, **Clerk** authentication, and **Stripe** payment processing
-  - Deployed on **Vercel** with **Supabase** for data storage
-- Creator of **Auction App**: microservices-based platform
-  - Built with **.NET Core WebApi**, **Next.js**, **RabbitMQ**, **Docker**, and **Kubernetes**
-  - Implemented **CI/CD pipeline** and local deployment orchestration
-- Contributed to Ethiopian Investment Commission's online systems ([invest-ethiopia.com](https://invest-ethiopia.com)) and **Online Trade Registration and Licensing System** ([etrade.gov.et](https://etrade.gov.et))
+  - Cursor, windsurf
 `,
   avatar: "https://iajnbsldqibrouupyqul.supabase.co/storage/v1/object/public/profile_bucket/my_avator.png",
   ogImage:
     "https://iajnbsldqibrouupyqul.supabase.co/storage/v1/object/public/profile_bucket/my_avator.png",
   namePronunciationUrl: "/audio/melaku.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  timeZone: "Africa/Addis_Ababa",
   keywords: [
     "ncdai",
     "nguyenchanhdai",

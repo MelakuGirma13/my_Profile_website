@@ -2,6 +2,29 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "fafresh-fashion",
+    title: "Fafresh Fashion - E-commerce App",
+    period: {
+      start: "01.2024",
+    },
+    link: "https://fafresh-fashion.vercel.app/",
+    logo: "https://api.dicebear.com/9.x/initials/svg?seed=BD&backgroundColor=00897b&fontSize=40",
+    skills: [
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Clerk",
+      "Square payments",
+      "Vercel",
+      "Supabase",
+      "Tailwind CSS",
+    ],
+    description: `Built Online e-commerce app using Next.js, published on Vercel. Designed database schema, UI, integrated Square for payment processing, and managed user authentication with Supabase authentications.`,
+    isExpanded: true,
+  },
+
+  {
     id: "bluedot-store",
     title: "BlueDot Store - E-commerce App",
     period: {
@@ -23,6 +46,7 @@ export const PROJECTS: Project[] = [
     description: `Built an online e-commerce app using Next.js, published on Vercel. Designed database schema, UI, integrated Stripe for payment processing, and managed user authentication with Clerk.`,
     isExpanded: true,
   },
+
   {
     id: "blockchain-price-tracker",
     title: "Blockchain Price Tracker",
@@ -43,6 +67,7 @@ export const PROJECTS: Project[] = [
     ],
     description: `API integration with Moralis and Solscan APIs to automatically track blockchain prices and send email notifications when prices increase or decrease.`,
   },
+
   {
     id: "auction-app",
     title: "Auction App (Microservices)",
@@ -70,69 +95,51 @@ export const PROJECTS: Project[] = [
     description: `Built a microservices-based auction app using .NET for backend services and Next.js for the client. Designed database schema, developed microservices, UI, CI/CD pipeline, unit/integration testing, and published locally to Kubernetes.`,
     isExpanded: true,
   },
-  {
-    id: "pos-system",
-    title: "Point Of Sales System (POS)",
-    period: {
-      start: "03.2020",
-      end: "02.2023",
-    },
-    link: "#",
-    logo: "https://api.dicebear.com/9.x/initials/svg?seed=POS&backgroundColor=7e22ce&fontSize=40",
-    skills: [
-      "MySQL",
-      "Entity Framework",
-      "Jira",
-      "Git",
-      ".NET Framework",
-      "Bitbucket",
-      "ASP.NET",
-      "Angular",
-    ],
-    description: `Fully integrated POS software for hospitality (hotels, motels, guesthouses) and retail businesses. Supports sales order taking on mobile devices, order display boards, payment processing, mass price update, hold sales, addition/discount features, fiscal reporting (Z-report, X-report).`,
-  },
-  {
-    id: "hotel-front-desk",
-    title: "Hotel Front Desk Management System",
-    period: {
-      start: "03.2020",
-      end: "02.2023",
-    },
-    link: "#",
-    logo: "https://api.dicebear.com/9.x/initials/svg?seed=HMS&backgroundColor=dc2626&fontSize=40",
-    skills: [
-      "MySQL",
-      "Entity Framework",
-      "Git",
-      "Jira",
-      ".NET Framework",
-      "Bitbucket",
-      "ASP.NET",
-      "Angular",
-    ],
-    description: `Web application for hospitality industry managing guest processes from reservation to checkout. Integrated POS, dashboards, check-in/out, room assignment, folio management, night audit, yield management, and business performance reporting.`,
-  },
-  {
-    id: "procurement-inventory",
-    title: "Procurement and Inventory Management System",
-    period: {
-      start: "03.2020",
-      end: "02.2023",
-    },
-    link: "#",
-    logo: "https://api.dicebear.com/9.x/initials/svg?seed=PIM&backgroundColor=059669&fontSize=40",
-    skills: [
-      "MySQL",
-      "Entity Framework",
-      "Jira",
-      "Git",
-      ".NET Framework",
-      "Bitbucket",
-      "ASP.NET",
-      "Angular",
-    ],
-    description: `Manages all aspects of purchases and payments, from departmental requests to final payment. Features unlimited workflow levels, user authorization limits, vendor contracts, purchase orders, invoices, payment management, and payables reporting.`,
-  },
+
+  // {
+  //   id: "pos-system",
+  //   title: "Point Of Sales System (POS)",
+  //   period: {
+  //     start: "03.2020",
+  //     end: "02.2023",
+  //   },
+  //   link: "#",
+  //   logo: "https://api.dicebear.com/9.x/initials/svg?seed=POS&backgroundColor=7e22ce&fontSize=40",
+  //   skills: [
+  //     "MySQL",
+  //     "Entity Framework",
+  //     "Jira",
+  //     "Git",
+  //     ".NET Framework",
+  //     "Bitbucket",
+  //     "ASP.NET",
+  //     "Angular",
+  //   ],
+  //   description: `Fully integrated POS software for hospitality (hotels, motels, guesthouses) and retail businesses. Supports sales order taking on mobile devices, order display boards, payment processing, mass price update, hold sales, addition/discount features, fiscal reporting (Z-report, X-report).`,
+  // },
+
+  // {
+  //   id: "hotel-front-desk",
+  //   title: "Hotel Front Desk Management System",
+  //   period: {
+  //     start: "03.2020",
+  //     end: "02.2023",
+  //   },
+  //   link: "#",
+  //   logo: "https://api.dicebear.com/9.x/initials/svg?seed=HMS&backgroundColor=dc2626&fontSize=40",
+  //   skills: [
+  //     "MySQL",
+  //     "Entity Framework",
+  //     "Git",
+  //     "Jira",
+  //     ".NET Framework",
+  //     "Bitbucket",
+  //     "ASP.NET",
+  //     "Angular",
+  //   ],
+  //   description: `Web application for hospitality industry managing guest processes from reservation to checkout. Integrated POS, dashboards, check-in/out, room assignment, folio management, night audit, yield management, and business performance reporting.`,
+  // },
+
   {
     id: "ethiopian-investment",
     title: "Ethiopian Investment Commission Online Systems",
@@ -152,6 +159,7 @@ export const PROJECTS: Project[] = [
     ],
     description: `Online systems for investment permit services: request new, renewal, cancellation, expansion, substitution of investment permit; incentive management; online custom duty exception service.`,
   },
+
   {
     id: "otrls",
     title: "Online Trade Registration and Licensing System (OTRLS)",
@@ -170,6 +178,7 @@ export const PROJECTS: Project[] = [
     ],
     description: `Online system for trade registration and licensing in Ethiopia.`,
   },
+
   {
     id: "react-dashboard",
     title: "React.js Dashboard",
@@ -181,6 +190,7 @@ export const PROJECTS: Project[] = [
     skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     description: `A modern dashboard built with Next.js and React, demonstrating data visualization and responsive design.`,
   },
+
   {
     id: "revenue-management",
     title: "Revenue Management System",

@@ -36,8 +36,8 @@ export default function Page() {
         <Overview />
         <Separator />
 
-        {/* <SocialLinks />
-        <Separator /> */}
+        <SocialLinks />
+        <Separator />
 
         <About />
         <Separator />

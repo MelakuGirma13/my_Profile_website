@@ -59,16 +59,16 @@ const MENU_LINKS: CommandLinkItem[] = [
     href: "/",
     icon: ChanhDaiMark,
   },
-  {
-    title: "Components",
-    href: "/components",
-    icon: Icons.react,
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-    icon: RssIcon,
-  },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  //   icon: Icons.react,
+  // },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  //   icon: RssIcon,
+  // },
 ];
 
 const PORTFOLIO_LINKS: CommandLinkItem[] = [
@@ -92,26 +92,26 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     href: "/#projects",
     icon: Icons.project,
   },
-  {
-    title: "Honors & Awards",
-    href: "/#awards",
-    icon: Icons.award,
-  },
-  {
-    title: "Certifications",
-    href: "/#certs",
-    icon: Icons.certificate,
-  },
-  {
-    title: "Testimonials",
-    href: "/#testimonials",
-    icon: MessageCircleMoreIcon,
-  },
-  {
-    title: "Download vCard",
-    href: "/vcard",
-    icon: CircleUserIcon,
-  },
+  // {
+  //   title: "Honors & Awards",
+  //   href: "/#awards",
+  //   icon: Icons.award,
+  // },
+  // {
+  //   title: "Certifications",
+  //   href: "/#certs",
+  //   icon: Icons.certificate,
+  // },
+  // {
+  //   title: "Testimonials",
+  //   href: "/#testimonials",
+  //   icon: MessageCircleMoreIcon,
+  // },
+  // {
+  //   title: "Download vCard",
+  //   href: "/vcard",
+  //   icon: CircleUserIcon,
+  // },
 ];
 
 const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
@@ -247,23 +247,23 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
 
           <CommandSeparator />
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Components"
             links={componentLinks}
             fallbackIcon={Icons.react}
             onLinkSelect={handleOpenLink}
           />
 
-          <CommandSeparator />
+          <CommandSeparator /> */}
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Blog"
             links={blogLinks}
             fallbackIcon={TextIcon}
             onLinkSelect={handleOpenLink}
           />
 
-          <CommandSeparator />
+          <CommandSeparator /> */}
 
           <CommandLinkGroup
             heading="Social Links"
@@ -273,7 +273,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
 
           <CommandSeparator />
 
-          <CommandGroup heading="Brand Assets">
+          {/* <CommandGroup heading="Brand Assets">
             <CommandItem
               onSelect={() => {
                 handleCopyText(
@@ -311,7 +311,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
                 Download Brand Assets
               </a>
             </CommandItem>
-          </CommandGroup>
+          </CommandGroup> */}
 
           <CommandSeparator />
 

@@ -31,6 +31,7 @@ export const EXPERIENCES: Experience[] = [
     ],
     isCurrentEmployer: true, // assuming current role
   },
+  
   {
     id: "custor",
     companyName: "CUSTOR Computing",
@@ -61,33 +62,7 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
-  {
-    id: "olson-harris",
-    companyName: "Olson Harris Ltd.",
-    companyLogo: "",
-    positions: [
-      {
-        id: "software-developer",
-        title: "Software Developer",
-        employmentPeriod: {
-          start: "01.2018",
-          end: "02.2020",
-        },
-        employmentType: "Full-time",
-        icon: "code",
-        description: `- Developed and maintained cross-platform applications using Angular and React, integrating third-party APIs to enhance functionality.
-- Deployed solutions that improved system performance.`,
-        skills: [
-          "Angular",
-          "React",
-          "Third-party API Integration",
-          "Cross-platform Development",
-          "Performance Optimization",
-        ],
-        isExpanded: true,
-      },
-    ],
-  },
+
   {
     id: "peds",
     companyName: "Professional Electronic Data Systems (PEDS)",
@@ -116,6 +91,7 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
+
   {
     id: "education",
     companyName: "Education",
@@ -131,16 +107,7 @@ export const EXPERIENCES: Experience[] = [
         icon: "education",
         description: `- Bahirdar University Institute of Technology, Bahirdar
 - Graduated with a degree in Computer Science and Engineering.`,
-        skills: [
-          "Computer Science",
-          "C++",
-          "Java",
-          "Python",
-          "Data Structures",
-          "Algorithms",
-          "Software Engineering",
-          "Database Systems",
-        ],
+       
       },
       {
         id: "professional-trainings",
