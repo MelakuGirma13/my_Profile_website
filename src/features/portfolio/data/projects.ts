@@ -115,6 +115,7 @@ export const PROJECTS: Project[] = [
       "Solscan API",
     ],
     description: `API integration with Moralis and Solscan APIs to automatically track blockchain prices and send email notifications when prices increase or decrease.`,
+    isExpanded: false,
   },
 
   {
@@ -207,6 +208,7 @@ export const PROJECTS: Project[] = [
       "Bitbucket",
     ],
     description: `Online systems for investment permit services: request new, renewal, cancellation, expansion, substitution of investment permit; incentive management; online custom duty exception service.`,
+    isExpanded: false,
   },
 
   {
@@ -226,6 +228,7 @@ export const PROJECTS: Project[] = [
       "Bitbucket",
     ],
     description: `Online system for trade registration and licensing in Ethiopia.`,
+    isExpanded: false,
   },
 
   {
@@ -238,6 +241,7 @@ export const PROJECTS: Project[] = [
     logo: "https://api.dicebear.com/9.x/initials/svg?seed=RD&backgroundColor=6b7280&fontSize=40",
     skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     description: `A modern dashboard built with Next.js and React, demonstrating data visualization and responsive design.`,
+    isExpanded: false,
   },
 
   {
@@ -258,5 +262,6 @@ export const PROJECTS: Project[] = [
       "Jira",
     ],
     description: `Internal system for managing revenue streams, reporting, and financial tracking.`,
+    isExpanded: false,
   },
 ];
