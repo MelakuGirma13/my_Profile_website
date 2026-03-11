@@ -25,6 +25,55 @@ export const PROJECTS: Project[] = [
   },
 
   {
+    id: "ai-enhanced ecommerce",
+    title: "AI-Enhanced E-Commerce Platform",
+    period: {
+      start: "01.2024",
+    },
+    link: "https://e-commerce-store-front-pied.vercel.app/",
+    logo: "https://api.dicebear.com/9.x/initials/svg?seed=BD&backgroundColor=00897b&fontSize=40",
+    skills: [
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "vercel AI sdk",
+      "Square payments",
+      "Vercel",
+      "Supabase",
+      "SchadCn UI",
+    ],
+    description: `AI-enhanced ecommerce platform built with Next.js 16, Supabase, Prisma, 
+    and Vercel AI SDK featuring conversational shopping, semantic search, intelligent recommendations, 
+    and automated product content generation.`,
+    isExpanded: true,
+  },
+
+  {
+    id: "ai-enhanced ecommerce admin",
+    title: "E-Commerce Admin Platform",
+    period: {
+      start: "01.2024",
+    },
+    link: "https://e-commerce-admin-nine-opal.vercel.app/admin",
+    logo: "https://api.dicebear.com/9.x/initials/svg?seed=BD&backgroundColor=00897b&fontSize=40",
+    skills: [
+      "TypeScript",
+      "Next.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Square payments",
+      "Vercel",
+      "Supabase",
+      "Tailwind CSS",
+    ],
+    description: `AI-enhanced ecommerce platform built with Next.js 16, Supabase, Prisma, 
+    and Vercel AI SDK featuring conversational shopping, semantic search, intelligent recommendations, 
+    and automated product content generation.`,
+    isExpanded: true,
+  },
+
+  {
     id: "bluedot-store",
     title: "BlueDot Store - E-commerce App",
     period: {
